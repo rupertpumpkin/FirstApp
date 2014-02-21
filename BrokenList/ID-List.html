@@ -1,0 +1,43 @@
+<!--
+============================
+IDs in index.html:
+
+    id="indexPage"
+============================
+IDs in form.html:
+
+    id="formPage"
+    id="saveButton"
+    id="form" 
+    name="taskName"id="taskName"
+    name="taskDescription" id="taskDescription"
+    name="taskCompleted" id="taskCompleted"
+    name="taskDate" id="taskDate"
+    id="deleteButton" href="delete.html"
+    >
+===========================
+IDs in delete.html:
+
+    id="confirmButton" 
+===========================   
+-->
+============================
+IDs in index.html:
+    <div data-role="page" id="indexPage">
+============================
+IDs in form.html:
+    <div data-role="page" id="formPage" data-theme="b">
+    <a id="saveButton" data-icon="check" data-rel="back" data-direction="reverse" >
+    <form action=""  method="post" id="form">    
+    <input type="text" name="taskName" id="taskName" value="">
+    <textarea name="taskDescription"id="taskDescription">
+    <select name="taskCompleted" id="taskCompleted" data-role="slider"> 
+    <input type="date" name="taskDate" id="taskDate" value="" />
+    <a  data-role="button" data-rel="dialog"
+        data-icon="delete" data-transition="fade"
+        id="deleteButton" href="delete.html"
+    >
+===========================
+IDs in delete.html:
+    <a data-role="button" id="confirmButton">Yes</a> 
+===========================   
